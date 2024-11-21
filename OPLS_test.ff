@@ -1,0 +1,845 @@
+[ moleculetype ]
+STY 3
+[ atoms ]
+ 1 ha 1 STY H15 65  0.13143744 1.008
+ 2 c3 1 STY C0   9 -0.06796256 12.01
+ 3 c3 1 STY C1  10 -0.02296256 12.01
+ 4 ca 1 STY C2  11 -0.07186256 12.01
+ 5 ca 1 STY C3  12 -0.12756256 12.01
+ 6 ca 1 STY C4  13 -0.12856256 12.01
+ 7 ca 1 STY C5  14 -0.13156156 12.01
+ 8 ca 1 STY C6  15 -0.12856256 12.01
+ 9 ca 1 STY C7  16 -0.12756256 12.01
+10 hc 1 STY H8  58  0.04763744 1.008
+11 hc 1 STY H9  59  0.04763744 1.008
+12 hc 1 STY H10 60  0.05713744 1.008
+13 ha 1 STY H11 61  0.13143744 1.008
+14 ha 1 STY H12 62  0.13043744 1.008
+15 ha 1 STY H13 63  0.13043744 1.008
+16 ha 1 STY H14 64  0.13043744 1.008
+[ bonds ]
+ C0  C1 1 1.5354e-01 1.9154e+05 {}
+ C0  H8 1 1.0962e-01 2.8891e+05 {}
+ C0  H9 1 1.0962e-01 2.8891e+05 {}
+ C1  C2 1 1.5147e-01 2.0410e+05 {}
+ C1 H10 1 1.0962e-01 2.8891e+05 {}
+ C2  C3 1 1.3986e-01 2.9644e+05 {}
+ C2  C7 1 1.3986e-01 2.9644e+05 {}
+ C3  C4 1 1.3986e-01 2.9644e+05 {}
+ C3 H11 1 1.0860e-01 3.0183e+05 {}
+ C4  C5 1 1.3986e-01 2.9644e+05 {}
+ C4 H12 1 1.0860e-01 3.0183e+05 {}
+ C5  C6 1 1.3986e-01 2.9644e+05 {}
+ C5 H13 1 1.0860e-01 3.0183e+05 {}
+ C6  C7 1 1.3986e-01 2.9644e+05 {}
+ C6 H14 1 1.0860e-01 3.0183e+05 {}
+ C7 H15 1 1.0860e-01 3.0183e+05 {}
+[ pairs ]
+ C0  C3 1 {}
+ C0  C7 1 {}
+ C1  C4 1 {}
+ C1  C6 1 {}
+ C1 H11 1 {}
+ C1 H15 1 {}
+ C2  C5 1 {}
+ C2  H8 1 {}
+ C2  H9 1 {}
+ C2 H12 1 {}
+ C2 H14 1 {}
+ C3  C6 1 {}
+ C3 H10 1 {}
+ C3 H13 1 {}
+ C3 H15 1 {}
+ C4  C7 1 {}
+ C4 H14 1 {}
+ C5 H11 1 {}
+ C5 H15 1 {}
+ C6 H12 1 {}
+ C7 H10 1 {}
+ C7 H11 1 {}
+ C7 H13 1 {}
+ H8 H10 1 {}
+ H9 H10 1 {}
+H11 H12 1 {}
+H12 H13 1 {}
+H13 H14 1 {}
+H14 H15 1 {}
+[ angles ]
+ C0  C1  C2 1 1.1242e+02 5.0484e+02 {}
+ C0  C1 H10 1 1.0968e+02 3.6208e+02 {}
+ C1  C0  H8 1 1.0968e+02 3.6208e+02 {}
+ C1  C0  H9 1 1.0968e+02 3.6208e+02 {}
+ C1  C2  C3 1 1.2083e+02 5.0827e+02 {}
+ C1  C2  C7 1 1.2083e+02 5.0827e+02 {}
+ C2  C1 H10 1 1.1063e+02 3.6493e+02 {}
+ C2  C3  C4 1 1.2002e+02 5.3279e+02 {}
+ C2  C3 H11 1 1.1988e+02 3.7572e+02 {}
+ C2  C7  C6 1 1.2002e+02 5.3279e+02 {}
+ C2  C7 H15 1 1.1988e+02 3.7572e+02 {}
+ C3  C2  C7 1 1.2002e+02 5.3279e+02 {}
+ C3  C4  C5 1 1.2002e+02 5.3279e+02 {}
+ C3  C4 H12 1 1.1988e+02 3.7572e+02 {}
+ C4  C3 H11 1 1.1988e+02 3.7572e+02 {}
+ C4  C5  C6 1 1.2002e+02 5.3279e+02 {}
+ C4  C5 H13 1 1.1988e+02 3.7572e+02 {}
+ C5  C4 H12 1 1.1988e+02 3.7572e+02 {}
+ C5  C6  C7 1 1.2002e+02 5.3279e+02 {}
+ C5  C6 H14 1 1.1988e+02 3.7572e+02 {}
+ C6  C5 H13 1 1.1988e+02 3.7572e+02 {}
+ C6  C7 H15 1 1.1988e+02 3.7572e+02 {}
+ C7  C6 H14 1 1.1988e+02 3.7572e+02 {}
+ H8  C0  H9 1 1.0773e+02 2.9957e+02 {}
+[ dihedrals ]
+ C0  C1  C2  C3 9 180.00 1.00416 2 {}
+ C0  C1  C2  C7 9 180.00 1.00416 2 {}
+ C1  C2  C3  C4 9 180.00 15.16700 2 {}
+ C1  C2  C3 H11 9 180.00 15.16700 2 {}
+ C1  C2  C7  C6 9 180.00 15.16700 2 {}
+ C1  C2  C7 H15 9 180.00 15.16700 2 {}
+ C2  C1  C0  H8 9 0.00 0.65084 3 {}
+ C2  C1  C0  H9 9 0.00 0.65084 3 {}
+ C2  C3  C4  C5 9 180.00 15.16700 2 {}
+ C2  C3  C4 H12 9 180.00 15.16700 2 {}
+ C2  C7  C6  C5 9 180.00 15.16700 2 {}
+ C2  C7  C6 H14 9 180.00 15.16700 2 {}
+ C3  C2  C1 H10 9 0.00 0.00000 0 {}
+ C3  C2  C7  C6 9 180.00 15.16700 2 {}
+ C3  C2  C7 H15 9 180.00 15.16700 2 {}
+ C3  C4  C5  C6 9 180.00 15.16700 2 {}
+ C3  C4  C5 H13 9 180.00 15.16700 2 {}
+ C4  C3  C2  C7 9 180.00 15.16700 2 {}
+ C4  C5  C6  C7 9 180.00 15.16700 2 {}
+ C4  C5  C6 H14 9 180.00 15.16700 2 {}
+ C5  C4  C3 H11 9 180.00 15.16700 2 {}
+ C5  C6  C7 H15 9 180.00 15.16700 2 {}
+ C6  C5  C4 H12 9 180.00 15.16700 2 {}
+ C7  C2  C1 H10 9 0.00 0.00000 0 {}
+ C7  C2  C3 H11 9 180.00 15.16700 2 {}
+ C7  C6  C5 H13 9 180.00 15.16700 2 {}
+ H8  C0  C1 H10 9 0.00 0.50208 3 {}
+ H9  C0  C1 H10 9 0.00 0.50208 3 {}
+H11  C3  C4 H12 9 180.00 15.16700 2 {}
+H12  C4  C5 H13 9 180.00 15.16700 2 {}
+H13  C5  C6 H14 9 180.00 15.16700 2 {}
+H14  C6  C7 H15 9 180.00 15.16700 2 {}
+ C1  C3  C2  C7 4 180.00 4.60240 2 {}
+ C2  C4  C3 H11 4 180.00 4.60240 2 {}
+ C2  C6  C7 H15 4 180.00 4.60240 2 {}
+ C3  C5  C4 H12 4 180.00 4.60240 2 {}
+ C4  C6  C5 H13 4 180.00 4.60240 2 {}
+ C5  C7  C6 H14 4 180.00 4.60240 2 {}
+[ edges ]
+H15  C7
+ C0  C1
+ C0  H8
+ C0  H9
+ C1  C2
+ C1 H10
+ C2  C3
+ C2  C7
+ C3  C4
+ C3 H11
+ C4  C5
+ C4 H12
+ C5  C6
+ C5 H13
+ C6  C7
+ C6 H14
+[ moleculetype ]
+ETH 3
+[ atoms ]
+ 1 hc 1 ETH H4  74  0.03861682 1.008
+ 2 hc 1 ETH H5  75  0.03861682 1.008
+ 3 hc 1 ETH H6  76  0.03961682 1.008
+ 4 hc 1 ETH H7  77  0.03961682 1.008
+ 5 hc 1 ETH H8  78  0.04061682 1.008
+ 6 hc 1 ETH H9  79  0.04061682 1.008
+ 7 hc 1 ETH H10 80  0.03911682 1.008
+ 8 hc 1 ETH H11 81  0.03911682 1.008
+ 9 c3 1 ETH C0  21 -0.07848371 12.01
+10 c3 1 ETH C1  22 -0.07948355 12.01
+11 c3 1 ETH C2  23 -0.07948355 12.01
+12 c3 1 ETH C3  24 -0.07848371 12.01
+[ bonds ]
+ C0  C1 1 1.5354e-01 1.9154e+05 {}
+ C0  H4 1 1.0962e-01 2.8891e+05 {}
+ C0  H5 1 1.0962e-01 2.8891e+05 {}
+ C1  C2 1 1.5354e-01 1.9154e+05 {}
+ C1  H6 1 1.0962e-01 2.8891e+05 {}
+ C1  H7 1 1.0962e-01 2.8891e+05 {}
+ C2  C3 1 1.5354e-01 1.9154e+05 {}
+ C2  H8 1 1.0962e-01 2.8891e+05 {}
+ C2  H9 1 1.0962e-01 2.8891e+05 {}
+ C3 H10 1 1.0962e-01 2.8891e+05 {}
+ C3 H11 1 1.0962e-01 2.8891e+05 {}
+[ pairs ]
+ C0  C3 1 {}
+ C0  H8 1 {}
+ C0  H9 1 {}
+ C1 H10 1 {}
+ C1 H11 1 {}
+ C2  H4 1 {}
+ C2  H5 1 {}
+ C3  H6 1 {}
+ C3  H7 1 {}
+ H4  H6 1 {}
+ H4  H7 1 {}
+ H5  H6 1 {}
+ H5  H7 1 {}
+ H6  H8 1 {}
+ H6  H9 1 {}
+ H7  H8 1 {}
+ H7  H9 1 {}
+ H8 H10 1 {}
+ H8 H11 1 {}
+ H9 H10 1 {}
+ H9 H11 1 {}
+[ angles ]
+ C0  C1  C2 1 1.1263e+02 5.0099e+02 {}
+ C0  C1  H6 1 1.0968e+02 3.6208e+02 {}
+ C0  C1  H7 1 1.0968e+02 3.6208e+02 {}
+ C1  C0  H4 1 1.0968e+02 3.6208e+02 {}
+ C1  C0  H5 1 1.0968e+02 3.6208e+02 {}
+ C1  C2  C3 1 1.1263e+02 5.0099e+02 {}
+ C1  C2  H8 1 1.0968e+02 3.6208e+02 {}
+ C1  C2  H9 1 1.0968e+02 3.6208e+02 {}
+ C2  C1  H6 1 1.0968e+02 3.6208e+02 {}
+ C2  C1  H7 1 1.0968e+02 3.6208e+02 {}
+ C2  C3 H10 1 1.0968e+02 3.6208e+02 {}
+ C2  C3 H11 1 1.0968e+02 3.6208e+02 {}
+ C3  C2  H8 1 1.0968e+02 3.6208e+02 {}
+ C3  C2  H9 1 1.0968e+02 3.6208e+02 {}
+ H4  C0  H5 1 1.0773e+02 2.9957e+02 {}
+ H6  C1  H7 1 1.0773e+02 2.9957e+02 {}
+ H8  C2  H9 1 1.0773e+02 2.9957e+02 {}
+H10  C3 H11 1 1.0773e+02 2.9957e+02 {}
+[ dihedrals ]
+ C0  C1  C2  C3 9 0.00 2.17568 3 {}
+ C0  C1  C2  H8 9 0.00 0.54392 3 {}
+ C0  C1  C2  H9 9 0.00 0.54392 3 {}
+ C1  C2  C3 H10 9 0.00 0.54392 3 {}
+ C1  C2  C3 H11 9 0.00 0.54392 3 {}
+ C2  C1  C0  H4 9 0.00 0.54392 3 {}
+ C2  C1  C0  H5 9 0.00 0.54392 3 {}
+ C3  C2  C1  H6 9 0.00 0.54392 3 {}
+ C3  C2  C1  H7 9 0.00 0.54392 3 {}
+ H4  C0  C1  H6 9 0.00 0.50208 3 {}
+ H4  C0  C1  H7 9 0.00 0.50208 3 {}
+ H5  C0  C1  H6 9 0.00 0.50208 3 {}
+ H5  C0  C1  H7 9 0.00 0.50208 3 {}
+ H6  C1  C2  H8 9 0.00 0.50208 3 {}
+ H6  C1  C2  H9 9 0.00 0.50208 3 {}
+ H7  C1  C2  H8 9 0.00 0.50208 3 {}
+ H7  C1  C2  H9 9 0.00 0.50208 3 {}
+ H8  C2  C3 H10 9 0.00 0.50208 3 {}
+ H8  C2  C3 H11 9 0.00 0.50208 3 {}
+ H9  C2  C3 H10 9 0.00 0.50208 3 {}
+ H9  C2  C3 H11 9 0.00 0.50208 3 {}
+[ edges ]
+ H4  C0
+ H5  C0
+ H6  C1
+ H7  C1
+ H8  C2
+ H9  C2
+H10  C3
+H11  C3
+ C0  C1
+ C1  C2
+ C2  C3
+[ moleculetype ]
+BUT 3
+[ atoms ]
+ 1 hc 1 BUT H11 89  0.03253311 1.008
+ 2 hc 1 BUT H4  82  0.04220011 1.008
+ 3 hc 1 BUT H5  83  0.04220011 1.008
+ 4 hc 1 BUT H6  84  0.05020011 1.008
+ 5 hc 1 BUT H7  85  0.03870011 1.008
+ 6 hc 1 BUT H8  86  0.03870011 1.008
+ 7 hc 1 BUT H9  87  0.03253311 1.008
+ 8 hc 1 BUT H10 88  0.03253311 1.008
+ 9 c3 1 BUT C0  25 -0.07789996 12.01
+10 c3 1 BUT C1  26 -0.06319996 12.01
+11 c3 1 BUT C2  27 -0.07589996 12.01
+12 c3 1 BUT C3  28 -0.09259996 12.01
+[ bonds ]
+ C0  C1 1 1.5354e-01 1.9154e+05 {}
+ C0  H4 1 1.0962e-01 2.8891e+05 {}
+ C0  H5 1 1.0962e-01 2.8891e+05 {}
+ C1  C2 1 1.5354e-01 1.9154e+05 {}
+ C1  H6 1 1.0962e-01 2.8891e+05 {}
+ C2  C3 1 1.5354e-01 1.9154e+05 {}
+ C2  H7 1 1.0962e-01 2.8891e+05 {}
+ C2  H8 1 1.0962e-01 2.8891e+05 {}
+ C3  H9 1 1.0962e-01 2.8891e+05 {}
+ C3 H10 1 1.0962e-01 2.8891e+05 {}
+ C3 H11 1 1.0962e-01 2.8891e+05 {}
+[ pairs ]
+ C0  C3 1 {}
+ C0  H7 1 {}
+ C0  H8 1 {}
+ C1  H9 1 {}
+ C1 H10 1 {}
+ C1 H11 1 {}
+ C2  H4 1 {}
+ C2  H5 1 {}
+ C3  H6 1 {}
+ H4  H6 1 {}
+ H5  H6 1 {}
+ H6  H7 1 {}
+ H6  H8 1 {}
+ H7  H9 1 {}
+ H7 H10 1 {}
+ H7 H11 1 {}
+ H8  H9 1 {}
+ H8 H10 1 {}
+ H8 H11 1 {}
+[ angles ]
+ C0  C1  C2 1 1.1263e+02 5.0099e+02 {}
+ C0  C1  H6 1 1.0968e+02 3.6208e+02 {}
+ C1  C0  H4 1 1.0968e+02 3.6208e+02 {}
+ C1  C0  H5 1 1.0968e+02 3.6208e+02 {}
+ C1  C2  C3 1 1.1263e+02 5.0099e+02 {}
+ C1  C2  H7 1 1.0968e+02 3.6208e+02 {}
+ C1  C2  H8 1 1.0968e+02 3.6208e+02 {}
+ C2  C1  H6 1 1.0968e+02 3.6208e+02 {}
+ C2  C3  H9 1 1.0968e+02 3.6208e+02 {}
+ C2  C3 H10 1 1.0968e+02 3.6208e+02 {}
+ C2  C3 H11 1 1.0968e+02 3.6208e+02 {}
+ C3  C2  H7 1 1.0968e+02 3.6208e+02 {}
+ C3  C2  H8 1 1.0968e+02 3.6208e+02 {}
+ H4  C0  H5 1 1.0773e+02 2.9957e+02 {}
+ H7  C2  H8 1 1.0773e+02 2.9957e+02 {}
+ H9  C3 H10 1 1.0773e+02 2.9957e+02 {}
+ H9  C3 H11 1 1.0773e+02 2.9957e+02 {}
+H10  C3 H11 1 1.0773e+02 2.9957e+02 {}
+[ dihedrals ]
+ C0  C1  C2  C3 9 0.00 2.17568 3 {}
+ C0  C1  C2  H7 9 0.00 0.54392 3 {}
+ C0  C1  C2  H8 9 0.00 0.54392 3 {}
+ C1  C2  C3  H9 9 0.00 0.54392 3 {}
+ C1  C2  C3 H10 9 0.00 0.54392 3 {}
+ C1  C2  C3 H11 9 0.00 0.54392 3 {}
+ C2  C1  C0  H4 9 0.00 0.54392 3 {}
+ C2  C1  C0  H5 9 0.00 0.54392 3 {}
+ C3  C2  C1  H6 9 0.00 0.54392 3 {}
+ H4  C0  C1  H6 9 0.00 0.50208 3 {}
+ H5  C0  C1  H6 9 0.00 0.50208 3 {}
+ H6  C1  C2  H7 9 0.00 0.50208 3 {}
+ H6  C1  C2  H8 9 0.00 0.50208 3 {}
+ H7  C2  C3  H9 9 0.00 0.50208 3 {}
+ H7  C2  C3 H10 9 0.00 0.50208 3 {}
+ H7  C2  C3 H11 9 0.00 0.50208 3 {}
+ H8  C2  C3  H9 9 0.00 0.50208 3 {}
+ H8  C2  C3 H10 9 0.00 0.50208 3 {}
+ H8  C2  C3 H11 9 0.00 0.50208 3 {}
+[ edges ]
+H11  C3
+ H4  C0
+ H5  C0
+ H6  C1
+ H7  C2
+ H8  C2
+ H9  C3
+H10  C3
+ C0  C1
+ C1  C2
+ C2  C3
+[ moleculetype ]
+Hter 3
+[ atoms ]
+1 hc 1 Hter H0 49 0.0357 1.008
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "STY"}
++H8 {"resname": "STY"}
++C2 {"resname": "STY"}
++H9 {"resname": "STY"}
++C0 {"resname": "STY"}
+H0 {"resname": "Hter"}
++H10 {"resname": "STY"}
+[ bonds ]
+ +C0   H0 1 1.0962e-01 2.8891e+05 {"version": 0, "comment": "link"}
+[ pairs ]
+  H0  +C2 1 {"version": 0, "comment": "link"}
+  H0 +H10 1 {"version": 1, "comment": "link"}
+[ angles ]
+ +C1  +C0   H0 1 1.0968e+02 3.6208e+02 {"version": 0, "comment": "link"}
+  H0  +C0  +H9 1 1.0773e+02 2.9957e+02 {"version": 1, "comment": "link"}
+  H0  +C0  +H8 1 1.0773e+02 2.9957e+02 {"version": 2, "comment": "link"}
+[ dihedrals ]
+  H0  +C0  +C1  +C2 9 0.00 0.65084 3 {"version": 0, "comment": "link"}
+  H0  +C0  +C1 +H10 9 0.00 0.50208 3 {"version": 1, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "STY"}
+C7 {"resname": "STY"}
+C1 {"resname": "STY"}
++H8 {"resname": "STY"}
+H9 {"resname": "STY"}
+H8 {"resname": "STY"}
+C2 {"resname": "STY"}
+H10 {"resname": "STY"}
++C2 {"resname": "STY"}
++H9 {"resname": "STY"}
+C3 {"resname": "STY"}
++C0 {"resname": "STY"}
+C0 {"resname": "STY"}
++H10 {"resname": "STY"}
+[ bonds ]
+  C1  +C0 1 1.5354e-01 1.9154e+05 {"version": 0, "comment": "link"}
+[ pairs ]
+  C0  +C1 1 {"version": 0, "comment": "link"}
+  C0  +H8 1 {"version": 1, "comment": "link"}
+  C0  +H9 1 {"version": 2, "comment": "link"}
+  C1  +C2 1 {"version": 3, "comment": "link"}
+  C1 +H10 1 {"version": 4, "comment": "link"}
+  C2  +C1 1 {"version": 5, "comment": "link"}
+  C2  +H8 1 {"version": 6, "comment": "link"}
+  C2  +H9 1 {"version": 7, "comment": "link"}
+  C3  +C0 1 {"version": 8, "comment": "link"}
+  C7  +C0 1 {"version": 9, "comment": "link"}
+ +C1  H10 1 {"version": 10, "comment": "link"}
+ +C0   H8 1 {"version": 11, "comment": "link"}
+ +C0   H9 1 {"version": 12, "comment": "link"}
+ H10  +H8 1 {"version": 13, "comment": "link"}
+ H10  +H9 1 {"version": 14, "comment": "link"}
+[ angles ]
+  C0   C1  +C0 1 1.1263e+02 5.0099e+02 {"version": 0, "comment": "link"}
+  C1  +C0  +C1 1 1.1263e+02 5.0099e+02 {"version": 1, "comment": "link"}
+  C1  +C0  +H8 1 1.0968e+02 3.6208e+02 {"version": 2, "comment": "link"}
+  C1  +C0  +H9 1 1.0968e+02 3.6208e+02 {"version": 3, "comment": "link"}
+  C2   C1  +C0 1 1.1242e+02 5.0484e+02 {"version": 4, "comment": "link"}
+ +C0   C1  H10 1 1.0968e+02 3.6208e+02 {"version": 5, "comment": "link"}
+[ dihedrals ]
+  C0   C1  +C0  +C1 9 0.00 2.17568 3 {"version": 0, "comment": "link"}
+  C0   C1  +C0  +H8 9 0.00 0.54392 3 {"version": 1, "comment": "link"}
+  C0   C1  +C0  +H9 9 0.00 0.54392 3 {"version": 2, "comment": "link"}
+  C1  +C0  +C1  +C2 9 0.00 0.65084 3 {"version": 3, "comment": "link"}
+  C1  +C0  +C1 +H10 9 0.00 0.54392 3 {"version": 4, "comment": "link"}
+  C2   C1  +C0  +C1 9 0.00 0.65084 3 {"version": 5, "comment": "link"}
+  C2   C1  +C0  +H8 9 0.00 0.65084 3 {"version": 6, "comment": "link"}
+  C2   C1  +C0  +H9 9 0.00 0.65084 3 {"version": 7, "comment": "link"}
+  C3   C2   C1  +C0 9 180.00 1.00416 2 {"version": 8, "comment": "link"}
+  C7   C2   C1  +C0 9 180.00 1.00416 2 {"version": 9, "comment": "link"}
+ +C1  +C0   C1  H10 9 0.00 0.54392 3 {"version": 10, "comment": "link"}
+ +C0   C1   C0   H8 9 0.00 0.54392 3 {"version": 11, "comment": "link"}
+ +C0   C1   C0   H9 9 0.00 0.54392 3 {"version": 12, "comment": "link"}
+ H10   C1  +C0  +H8 9 0.00 0.50208 3 {"version": 13, "comment": "link"}
+ H10   C1  +C0  +H9 9 0.00 0.50208 3 {"version": 14, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "ETH"}
++H6 {"resname": "ETH"}
+C1 {"resname": "STY"}
+C7 {"resname": "STY"}
+H9 {"resname": "STY"}
+H8 {"resname": "STY"}
+C2 {"resname": "STY"}
+H10 {"resname": "STY"}
++H4 {"resname": "ETH"}
++H5 {"resname": "ETH"}
++C2 {"resname": "ETH"}
+C3 {"resname": "STY"}
++C0 {"resname": "ETH"}
+C0 {"resname": "STY"}
++H7 {"resname": "ETH"}
+[ bonds ]
+ C1 +C0 1 1.5354e-01 1.9154e+05 {"version": 0, "comment": "link"}
+[ pairs ]
+ C0 +C1 1 {"version": 0, "comment": "link"}
+ C0 +H4 1 {"version": 1, "comment": "link"}
+ C0 +H5 1 {"version": 2, "comment": "link"}
+ C1 +C2 1 {"version": 3, "comment": "link"}
+ C1 +H6 1 {"version": 4, "comment": "link"}
+ C1 +H7 1 {"version": 5, "comment": "link"}
+ C2 +C1 1 {"version": 6, "comment": "link"}
+ C2 +H4 1 {"version": 7, "comment": "link"}
+ C2 +H5 1 {"version": 8, "comment": "link"}
+ C3 +C0 1 {"version": 9, "comment": "link"}
+ C7 +C0 1 {"version": 10, "comment": "link"}
++C0  H8 1 {"version": 11, "comment": "link"}
++C0  H9 1 {"version": 12, "comment": "link"}
++C1 H10 1 {"version": 13, "comment": "link"}
+H10 +H4 1 {"version": 14, "comment": "link"}
+H10 +H5 1 {"version": 15, "comment": "link"}
+[ angles ]
+ C0  C1 +C0 1 1.1263e+02 5.0099e+02 {"version": 0, "comment": "link"}
+ C1 +C0 +C1 1 1.1263e+02 5.0099e+02 {"version": 1, "comment": "link"}
+ C1 +C0 +H4 1 1.0968e+02 3.6208e+02 {"version": 2, "comment": "link"}
+ C1 +C0 +H5 1 1.0968e+02 3.6208e+02 {"version": 3, "comment": "link"}
+ C2  C1 +C0 1 1.1242e+02 5.0484e+02 {"version": 4, "comment": "link"}
++C0  C1 H10 1 1.0968e+02 3.6208e+02 {"version": 5, "comment": "link"}
+[ dihedrals ]
+ C0  C1 +C0 +C1 9 0.00 2.17568 3 {"version": 0, "comment": "link"}
+ C0  C1 +C0 +H4 9 0.00 0.54392 3 {"version": 1, "comment": "link"}
+ C0  C1 +C0 +H5 9 0.00 0.54392 3 {"version": 2, "comment": "link"}
+ C1 +C0 +C1 +C2 9 0.00 2.17568 3 {"version": 3, "comment": "link"}
+ C1 +C0 +C1 +H6 9 0.00 0.54392 3 {"version": 4, "comment": "link"}
+ C1 +C0 +C1 +H7 9 0.00 0.54392 3 {"version": 5, "comment": "link"}
+ C2  C1 +C0 +C1 9 0.00 0.65084 3 {"version": 6, "comment": "link"}
+ C2  C1 +C0 +H4 9 0.00 0.65084 3 {"version": 7, "comment": "link"}
+ C2  C1 +C0 +H5 9 0.00 0.65084 3 {"version": 8, "comment": "link"}
+ C3  C2  C1 +C0 9 180.00 1.00416 2 {"version": 9, "comment": "link"}
+ C7  C2  C1 +C0 9 180.00 1.00416 2 {"version": 10, "comment": "link"}
++C0  C1  C0  H8 9 0.00 0.54392 3 {"version": 11, "comment": "link"}
++C0  C1  C0  H9 9 0.00 0.54392 3 {"version": 12, "comment": "link"}
++C1 +C0  C1 H10 9 0.00 0.54392 3 {"version": 13, "comment": "link"}
+H10  C1 +C0 +H4 9 0.00 0.50208 3 {"version": 14, "comment": "link"}
+H10  C1 +C0 +H5 9 0.00 0.50208 3 {"version": 15, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "ETH"}
++H6 {"resname": "ETH"}
+C1 {"resname": "ETH"}
+H9 {"resname": "ETH"}
+H8 {"resname": "ETH"}
+C2 {"resname": "ETH"}
+H10 {"resname": "ETH"}
++H4 {"resname": "ETH"}
+H11 {"resname": "ETH"}
++H5 {"resname": "ETH"}
++C2 {"resname": "ETH"}
+C3 {"resname": "ETH"}
++C0 {"resname": "ETH"}
++H7 {"resname": "ETH"}
+[ bonds ]
+ C3 +C0 1 1.5354e-01 1.9154e+05 {"version": 0, "comment": "link"}
+[ pairs ]
+ C1 +C0 1 {"version": 0, "comment": "link"}
+ C2 +C1 1 {"version": 1, "comment": "link"}
+ C2 +H4 1 {"version": 2, "comment": "link"}
+ C2 +H5 1 {"version": 3, "comment": "link"}
+ C3 +C2 1 {"version": 4, "comment": "link"}
+ C3 +H6 1 {"version": 5, "comment": "link"}
+ C3 +H7 1 {"version": 6, "comment": "link"}
++C0  H8 1 {"version": 7, "comment": "link"}
++C0  H9 1 {"version": 8, "comment": "link"}
++C1 H10 1 {"version": 9, "comment": "link"}
++C1 H11 1 {"version": 10, "comment": "link"}
+H10 +H4 1 {"version": 11, "comment": "link"}
+H10 +H5 1 {"version": 12, "comment": "link"}
+H11 +H4 1 {"version": 13, "comment": "link"}
+H11 +H5 1 {"version": 14, "comment": "link"}
+[ angles ]
+ C2  C3 +C0 1 1.1263e+02 5.0099e+02 {"version": 0, "comment": "link"}
+ C3 +C0 +C1 1 1.1263e+02 5.0099e+02 {"version": 1, "comment": "link"}
+ C3 +C0 +H4 1 1.0968e+02 3.6208e+02 {"version": 2, "comment": "link"}
+ C3 +C0 +H5 1 1.0968e+02 3.6208e+02 {"version": 3, "comment": "link"}
++C0  C3 H10 1 1.0968e+02 3.6208e+02 {"version": 4, "comment": "link"}
++C0  C3 H11 1 1.0968e+02 3.6208e+02 {"version": 5, "comment": "link"}
+[ dihedrals ]
+ C1  C2  C3 +C0 9 0.00 2.17568 3 {"version": 0, "comment": "link"}
+ C2  C3 +C0 +C1 9 0.00 2.17568 3 {"version": 1, "comment": "link"}
+ C2  C3 +C0 +H4 9 0.00 0.54392 3 {"version": 2, "comment": "link"}
+ C2  C3 +C0 +H5 9 0.00 0.54392 3 {"version": 3, "comment": "link"}
+ C3 +C0 +C1 +C2 9 0.00 2.17568 3 {"version": 4, "comment": "link"}
+ C3 +C0 +C1 +H6 9 0.00 0.54392 3 {"version": 5, "comment": "link"}
+ C3 +C0 +C1 +H7 9 0.00 0.54392 3 {"version": 6, "comment": "link"}
++C0  C3  C2  H8 9 0.00 0.54392 3 {"version": 7, "comment": "link"}
++C0  C3  C2  H9 9 0.00 0.54392 3 {"version": 8, "comment": "link"}
++C1 +C0  C3 H10 9 0.00 0.54392 3 {"version": 9, "comment": "link"}
++C1 +C0  C3 H11 9 0.00 0.54392 3 {"version": 10, "comment": "link"}
+H10  C3 +C0 +H4 9 0.00 0.50208 3 {"version": 11, "comment": "link"}
+H10  C3 +C0 +H5 9 0.00 0.50208 3 {"version": 12, "comment": "link"}
+H11  C3 +C0 +H4 9 0.00 0.50208 3 {"version": 13, "comment": "link"}
+H11  C3 +C0 +H5 9 0.00 0.50208 3 {"version": 14, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "BUT"}
++H6 {"resname": "BUT"}
+C1 {"resname": "ETH"}
+H9 {"resname": "ETH"}
+H8 {"resname": "ETH"}
+C2 {"resname": "ETH"}
+H10 {"resname": "ETH"}
++H4 {"resname": "BUT"}
+H11 {"resname": "ETH"}
++H5 {"resname": "BUT"}
++C2 {"resname": "BUT"}
+C3 {"resname": "ETH"}
++C0 {"resname": "BUT"}
+[ bonds ]
+ C3 +C0 1 1.5354e-01 1.9154e+05 {"version": 0, "comment": "link"}
+[ pairs ]
+ C1 +C0 1 {"version": 0, "comment": "link"}
+ C2 +C1 1 {"version": 1, "comment": "link"}
+ C2 +H4 1 {"version": 2, "comment": "link"}
+ C2 +H5 1 {"version": 3, "comment": "link"}
+ C3 +C2 1 {"version": 4, "comment": "link"}
+ C3 +H6 1 {"version": 5, "comment": "link"}
++C0  H8 1 {"version": 6, "comment": "link"}
++C0  H9 1 {"version": 7, "comment": "link"}
++C1 H10 1 {"version": 8, "comment": "link"}
++C1 H11 1 {"version": 9, "comment": "link"}
+H10 +H4 1 {"version": 10, "comment": "link"}
+H10 +H5 1 {"version": 11, "comment": "link"}
+H11 +H4 1 {"version": 12, "comment": "link"}
+H11 +H5 1 {"version": 13, "comment": "link"}
+[ angles ]
+ C2  C3 +C0 1 1.1263e+02 5.0099e+02 {"version": 0, "comment": "link"}
+ C3 +C0 +C1 1 1.1263e+02 5.0099e+02 {"version": 1, "comment": "link"}
+ C3 +C0 +H4 1 1.0968e+02 3.6208e+02 {"version": 2, "comment": "link"}
+ C3 +C0 +H5 1 1.0968e+02 3.6208e+02 {"version": 3, "comment": "link"}
++C0  C3 H10 1 1.0968e+02 3.6208e+02 {"version": 4, "comment": "link"}
++C0  C3 H11 1 1.0968e+02 3.6208e+02 {"version": 5, "comment": "link"}
+[ dihedrals ]
+ C1  C2  C3 +C0 9 0.00 2.17568 3 {"version": 0, "comment": "link"}
+ C2  C3 +C0 +C1 9 0.00 2.17568 3 {"version": 1, "comment": "link"}
+ C2  C3 +C0 +H4 9 0.00 0.54392 3 {"version": 2, "comment": "link"}
+ C2  C3 +C0 +H5 9 0.00 0.54392 3 {"version": 3, "comment": "link"}
+ C3 +C0 +C1 +C2 9 0.00 2.17568 3 {"version": 4, "comment": "link"}
+ C3 +C0 +C1 +H6 9 0.00 0.54392 3 {"version": 5, "comment": "link"}
++C0  C3  C2  H8 9 0.00 0.54392 3 {"version": 6, "comment": "link"}
++C0  C3  C2  H9 9 0.00 0.54392 3 {"version": 7, "comment": "link"}
++C1 +C0  C3 H10 9 0.00 0.54392 3 {"version": 8, "comment": "link"}
++C1 +C0  C3 H11 9 0.00 0.54392 3 {"version": 9, "comment": "link"}
+H10  C3 +C0 +H4 9 0.00 0.50208 3 {"version": 10, "comment": "link"}
+H10  C3 +C0 +H5 9 0.00 0.50208 3 {"version": 11, "comment": "link"}
+H11  C3 +C0 +H4 9 0.00 0.50208 3 {"version": 12, "comment": "link"}
+H11  C3 +C0 +H5 9 0.00 0.50208 3 {"version": 13, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "BUT"}
++H6 {"resname": "BUT"}
+C1 {"resname": "BUT"}
+H5 {"resname": "BUT"}
+H8 {"resname": "BUT"}
+C2 {"resname": "BUT"}
+H6 {"resname": "BUT"}
++H4 {"resname": "BUT"}
++H5 {"resname": "BUT"}
++C2 {"resname": "BUT"}
+C3 {"resname": "BUT"}
++C0 {"resname": "BUT"}
+C0 {"resname": "BUT"}
+H7 {"resname": "BUT"}
+H4 {"resname": "BUT"}
+[ bonds ]
+ C1 +C0 1 1.5354e-01 1.9154e+05 {"version": 0, "comment": "link"}
+[ pairs ]
+ C0 +C1 1 {"version": 0, "comment": "link"}
+ C0 +H4 1 {"version": 1, "comment": "link"}
+ C0 +H5 1 {"version": 2, "comment": "link"}
+ C1 +C2 1 {"version": 3, "comment": "link"}
+ C1 +H6 1 {"version": 4, "comment": "link"}
+ C2 +C1 1 {"version": 5, "comment": "link"}
+ C2 +H4 1 {"version": 6, "comment": "link"}
+ C2 +H5 1 {"version": 7, "comment": "link"}
+ C3 +C0 1 {"version": 8, "comment": "link"}
++C0  H4 1 {"version": 9, "comment": "link"}
++C0  H5 1 {"version": 10, "comment": "link"}
++C0  H7 1 {"version": 11, "comment": "link"}
++C0  H8 1 {"version": 12, "comment": "link"}
++C1  H6 1 {"version": 13, "comment": "link"}
+ H6 +H4 1 {"version": 14, "comment": "link"}
+ H6 +H5 1 {"version": 15, "comment": "link"}
+[ angles ]
+ C0  C1 +C0 1 1.1263e+02 5.0099e+02 {"version": 0, "comment": "link"}
+ C1 +C0 +C1 1 1.1263e+02 5.0099e+02 {"version": 1, "comment": "link"}
+ C1 +C0 +H4 1 1.0968e+02 3.6208e+02 {"version": 2, "comment": "link"}
+ C1 +C0 +H5 1 1.0968e+02 3.6208e+02 {"version": 3, "comment": "link"}
+ C2  C1 +C0 1 1.1263e+02 5.0099e+02 {"version": 4, "comment": "link"}
++C0  C1  H6 1 1.0968e+02 3.6208e+02 {"version": 5, "comment": "link"}
+[ dihedrals ]
+ C0  C1 +C0 +C1 9 0.00 2.17568 3 {"version": 0, "comment": "link"}
+ C0  C1 +C0 +H4 9 0.00 0.54392 3 {"version": 1, "comment": "link"}
+ C0  C1 +C0 +H5 9 0.00 0.54392 3 {"version": 2, "comment": "link"}
+ C1 +C0 +C1 +C2 9 0.00 2.17568 3 {"version": 3, "comment": "link"}
+ C1 +C0 +C1 +H6 9 0.00 0.54392 3 {"version": 4, "comment": "link"}
+ C2  C1 +C0 +C1 9 0.00 2.17568 3 {"version": 5, "comment": "link"}
+ C2  C1 +C0 +H4 9 0.00 0.54392 3 {"version": 6, "comment": "link"}
+ C2  C1 +C0 +H5 9 0.00 0.54392 3 {"version": 7, "comment": "link"}
+ C3  C2  C1 +C0 9 0.00 2.17568 3 {"version": 8, "comment": "link"}
++C0  C1  C0  H4 9 0.00 0.54392 3 {"version": 9, "comment": "link"}
++C0  C1  C0  H5 9 0.00 0.54392 3 {"version": 10, "comment": "link"}
++C0  C1  C2  H7 9 0.00 0.54392 3 {"version": 11, "comment": "link"}
++C0  C1  C2  H8 9 0.00 0.54392 3 {"version": 12, "comment": "link"}
++C1 +C0  C1  H6 9 0.00 0.54392 3 {"version": 13, "comment": "link"}
+ H6  C1 +C0 +H4 9 0.00 0.50208 3 {"version": 14, "comment": "link"}
+ H6  C1 +C0 +H5 9 0.00 0.50208 3 {"version": 15, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "STY"}
+C1 {"resname": "BUT"}
++H8 {"resname": "STY"}
+H5 {"resname": "BUT"}
+H8 {"resname": "BUT"}
+C2 {"resname": "BUT"}
+H6 {"resname": "BUT"}
++C2 {"resname": "STY"}
++H9 {"resname": "STY"}
+C3 {"resname": "BUT"}
++C0 {"resname": "STY"}
+C0 {"resname": "BUT"}
+H7 {"resname": "BUT"}
++H10 {"resname": "STY"}
+H4 {"resname": "BUT"}
+[ bonds ]
+  C1  +C0 1 1.5354e-01 1.9154e+05 {"version": 0, "comment": "link"}
+[ pairs ]
+  C0  +C1 1 {"version": 0, "comment": "link"}
+  C0  +H8 1 {"version": 1, "comment": "link"}
+  C0  +H9 1 {"version": 2, "comment": "link"}
+  C1  +C2 1 {"version": 3, "comment": "link"}
+  C1 +H10 1 {"version": 4, "comment": "link"}
+  C2  +C1 1 {"version": 5, "comment": "link"}
+  C2  +H8 1 {"version": 6, "comment": "link"}
+  C2  +H9 1 {"version": 7, "comment": "link"}
+  C3  +C0 1 {"version": 8, "comment": "link"}
+ +C0   H4 1 {"version": 9, "comment": "link"}
+ +C0   H5 1 {"version": 10, "comment": "link"}
+ +C0   H7 1 {"version": 11, "comment": "link"}
+ +C0   H8 1 {"version": 12, "comment": "link"}
+ +C1   H6 1 {"version": 13, "comment": "link"}
+  H6  +H8 1 {"version": 14, "comment": "link"}
+  H6  +H9 1 {"version": 15, "comment": "link"}
+[ angles ]
+  C0   C1  +C0 1 1.1263e+02 5.0099e+02 {"version": 0, "comment": "link"}
+  C1  +C0  +C1 1 1.1263e+02 5.0099e+02 {"version": 1, "comment": "link"}
+  C1  +C0  +H8 1 1.0968e+02 3.6208e+02 {"version": 2, "comment": "link"}
+  C1  +C0  +H9 1 1.0968e+02 3.6208e+02 {"version": 3, "comment": "link"}
+  C2   C1  +C0 1 1.1263e+02 5.0099e+02 {"version": 4, "comment": "link"}
+ +C0   C1   H6 1 1.0968e+02 3.6208e+02 {"version": 5, "comment": "link"}
+[ dihedrals ]
+  C0   C1  +C0  +C1 9 0.00 2.17568 3 {"version": 0, "comment": "link"}
+  C0   C1  +C0  +H8 9 0.00 0.54392 3 {"version": 1, "comment": "link"}
+  C0   C1  +C0  +H9 9 0.00 0.54392 3 {"version": 2, "comment": "link"}
+  C1  +C0  +C1  +C2 9 0.00 0.65084 3 {"version": 3, "comment": "link"}
+  C1  +C0  +C1 +H10 9 0.00 0.54392 3 {"version": 4, "comment": "link"}
+  C2   C1  +C0  +C1 9 0.00 2.17568 3 {"version": 5, "comment": "link"}
+  C2   C1  +C0  +H8 9 0.00 0.54392 3 {"version": 6, "comment": "link"}
+  C2   C1  +C0  +H9 9 0.00 0.54392 3 {"version": 7, "comment": "link"}
+  C3   C2   C1  +C0 9 0.00 2.17568 3 {"version": 8, "comment": "link"}
+ +C0   C1   C0   H4 9 0.00 0.54392 3 {"version": 9, "comment": "link"}
+ +C0   C1   C0   H5 9 0.00 0.54392 3 {"version": 10, "comment": "link"}
+ +C0   C1   C2   H7 9 0.00 0.54392 3 {"version": 11, "comment": "link"}
+ +C0   C1   C2   H8 9 0.00 0.54392 3 {"version": 12, "comment": "link"}
+ +C1  +C0   C1   H6 9 0.00 0.54392 3 {"version": 13, "comment": "link"}
+  H6   C1  +C0  +H8 9 0.00 0.50208 3 {"version": 14, "comment": "link"}
+  H6   C1  +C0  +H9 9 0.00 0.50208 3 {"version": 15, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++H0 {"resname": "Hter"}
+C7 {"resname": "STY"}
+C1 {"resname": "STY"}
+H9 {"resname": "STY"}
+H8 {"resname": "STY"}
+C2 {"resname": "STY"}
+H10 {"resname": "STY"}
+C3 {"resname": "STY"}
+C0 {"resname": "STY"}
+[ bonds ]
+ C1 +H0 1 1.0962e-01 2.8891e+05 {"version": 0, "comment": "link"}
+[ pairs ]
+ C3 +H0 1 {"version": 0, "comment": "link"}
+ C7 +H0 1 {"version": 1, "comment": "link"}
+ H8 +H0 1 {"version": 2, "comment": "link"}
+ H9 +H0 1 {"version": 3, "comment": "link"}
+[ angles ]
+ C0  C1 +H0 1 1.0968e+02 3.6208e+02 {"version": 0, "comment": "link"}
+ C2  C1 +H0 1 1.1063e+02 3.6493e+02 {"version": 1, "comment": "link"}
++H0  C1 H10 1 1.0773e+02 2.9957e+02 {"version": 2, "comment": "link"}
+[ dihedrals ]
+ C3  C2  C1 +H0 9 0.00 0.00000 0 {"version": 0, "comment": "link"}
+ C7  C2  C1 +H0 9 0.00 0.00000 0 {"version": 1, "comment": "link"}
+ H8  C0  C1 +H0 9 0.00 0.50208 3 {"version": 2, "comment": "link"}
+ H9  C0  C1 +H0 9 0.00 0.50208 3 {"version": 3, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
+C1 {"resname": "STY"}
+++C0 {"resname": "ETH"}
+[ pairs ]
+  C1 ++C0 1 {"version": 0, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
+C3 {"resname": "ETH"}
+++C0 {"resname": "BUT"}
+[ pairs ]
+  C3 ++C0 1 {"version": 0, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
+C1 {"resname": "BUT"}
+++C0 {"resname": "STY"}
+[ pairs ]
+  C1 ++C0 1 {"version": 0, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
+++H0 {"resname": "Hter"}
+C1 {"resname": "STY"}
+[ pairs ]
+  C1 ++H0 1 {"version": 0, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
+H0 {"resname": "Hter"}
+++C0 {"resname": "STY"}
+[ pairs ]
+  H0 ++C0 1 {"version": 0, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "STY"}
++C0 {"resname": "STY"}
+C1 {"resname": "STY"}
+++C0 {"resname": "ETH"}
+[ dihedrals ]
+  C1  +C0  +C1 ++C0 9 0.00 2.17568 3 {"version": 0, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
+C3 {"resname": "ETH"}
++C0 {"resname": "BUT"}
+++C0 {"resname": "BUT"}
++C1 {"resname": "BUT"}
+[ dihedrals ]
+  C3  +C0  +C1 ++C0 9 0.00 2.17568 3 {"version": 0, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "BUT"}
++C0 {"resname": "BUT"}
+C1 {"resname": "BUT"}
+++C0 {"resname": "STY"}
+[ dihedrals ]
+  C1  +C0  +C1 ++C0 9 0.00 2.17568 3 {"version": 0, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "STY"}
++C0 {"resname": "STY"}
+C1 {"resname": "BUT"}
+++C0 {"resname": "STY"}
+[ dihedrals ]
+  C1  +C0  +C1 ++C0 9 0.00 2.17568 3 {"version": 0, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "STY"}
++C0 {"resname": "STY"}
+C1 {"resname": "STY"}
+++H0 {"resname": "Hter"}
+[ dihedrals ]
+  C1  +C0  +C1 ++H0 9 0.00 0.54392 3 {"version": 0, "comment": "link"}
+[ edges ]
+[ link ]
+[ atoms ]
++C1 {"resname": "STY"}
++C0 {"resname": "STY"}
+H0 {"resname": "Hter"}
+++C0 {"resname": "STY"}
+[ dihedrals ]
+  H0  +C0  +C1 ++C0 9 0.00 0.54392 3 {"version": 0, "comment": "link"}
+[ edges ]
