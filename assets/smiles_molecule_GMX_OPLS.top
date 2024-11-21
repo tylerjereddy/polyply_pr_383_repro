@@ -1,7 +1,7 @@
 ; smiles_molecule_GMX_OPLS.top created by acpype (v: 2023.10.27) on Wed Nov 20 16:42:24 2024
 
 ; Include forcefield parameters
-#include forcefield.itp
+#include "forcefield.itp"
 
 ; Include smiles_molecule_GMX.itp topology
 #include "smiles_molecule_GMX.itp"

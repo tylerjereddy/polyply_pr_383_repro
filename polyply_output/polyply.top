@@ -1,0 +1,18 @@
+; Include forcefield parameters
+#include "../assets/forcefield.itp"
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ c3       c3          0.00000  0.00000   A     3.39771e-01   4.51035e-01 ; 1.91  0.1078
+ ca       ca          0.00000  0.00000   A     3.31521e-01   4.13379e-01 ; 1.86  0.0988
+ hc       hc          0.00000  0.00000   A     2.60018e-01   8.70272e-02 ; 1.46  0.0208
+ ha       ha          0.00000  0.00000   A     2.62548e-01   6.73624e-02 ; 1.47  0.0161
+; Include smiles_molecule_GMX.itp topology
+#include "polymer.itp"
+
+[ system ]
+ smiles_molecule
+
+[ molecules ]
+; Compound        nmols
+ polymer  1     
