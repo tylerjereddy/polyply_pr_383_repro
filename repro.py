@@ -12,8 +12,9 @@ from polyply.src.gen_ff import gen_ff
 
 def main():
     gen_ff(itppath=Path("assets/smiles_molecule_GMX_OPLS.top"),
-           smile_str="{[#styrene]|2[#ethylene]|2[#butylene]|2[#styrene]|2}.{#styrene=[<]CC[>]c1ccccc1,#ethylene=[<]CCCC[>],#butylene=[<]CC[>](CC)}",
-           outpath=".")
+           smile_str="{[#Hter][#STY]|2[#ETH]|2[#BUT]|2[#STY]|2[#Hter]}.{#Hter=[>][<][H],#STY=[<]CC[>]c1ccccc1,#ETH=[<]CCCC[>],#BUT=[<]CC[>](CC)}",
+           outpath="./OPLS_test.ff",
+           res_charges=[("STY", 0), ("ETH", 0), ("BUT", 0), ("Hter", 0)])
 
 
 if __name__ == "__main__":
